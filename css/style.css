@@ -122,3 +122,100 @@ h1 {
 #confirmBtn {
     background: #2e7dd1;
 }
+@media (max-width: 992px) {
+
+    h1 {
+        font-size: 38px;
+        margin-top: 20px;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .lr {
+        width: 48%;
+        height: 38%;
+        font-size: 22px;
+    }
+
+    .button {
+        width: 200px;
+        height: 45px;
+    }
+
+    .button a {
+        font-size: 28px;
+    }
+}
+
+/* Для телефонов (до 768px) */
+@media (max-width: 768px) {
+
+    body {
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    h1 {
+        font-size: 32px;
+        margin-top: 25px;
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .lr {
+        width: 85%;
+        height: auto;
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .button {
+        width: 180px;
+        height: 45px;
+    }
+
+    .button a {
+        font-size: 26px;
+    }
+}
+
+/* Маленькие телефоны (до 480px) */
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .lr {
+        width: 90%;
+        padding: 20px 10px;
+        font-size: 18px;
+    }
+
+    .button {
+        width: 150px;
+        height: 40px;
+    }
+
+    .button a {
+        font-size: 22px;
+    }
+
+    .modal-window {
+        width: 80%;
+        padding: 20px;
+    }
+
+    .modal-buttons button,
+    .modal-buttons a {
+        font-size: 16px;
+        padding: 8px 20px;
+    }
+}
